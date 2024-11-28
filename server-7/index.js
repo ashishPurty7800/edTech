@@ -38,8 +38,7 @@ app.use(fileupload({
 cors
 app.use(
     cors({
-        // origin: "http://localhost:3000",
-        origin : "https://studynotion-frontend-indol.vercel.app",
+        origin: "http://localhost:3000",
         credentials:true,
     })
 )
